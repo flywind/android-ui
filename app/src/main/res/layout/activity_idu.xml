@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:titlebar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_hot_bg"
+    tools:context="com.uxdpen.ui.android.activity.carrier.IduActivity">
+    <com.wuhenzhizao.titlebar.widget.CommonTitleBar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        titlebar:centerSubText="IDU001"
+        titlebar:centerSubTextColor="@color/colorWhite"
+        titlebar:centerText="主卧"
+        titlebar:centerType="textView"
+        titlebar:centerTextColor="@color/colorWhite"
+        titlebar:fillStatusBar="true"
+        titlebar:statusBarColor="@color/colorYellow"
+        titlebar:showBottomLine="false"
+        titlebar:titleBarColor="@android:color/transparent"
+        titlebar:leftDrawable="@drawable/ic_titlebar_back_24dp"
+        titlebar:leftDrawablePadding="0dp"
+        titlebar:leftType="textView"
+        titlebar:rightImageResource="@drawable/ic_titlebar_more_24dp"
+        titlebar:rightType="imageButton"/>
+
+    <RelativeLayout
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="300px"
+        android:layout_marginRight="70px">
+        <ImageView
+            android:id="@+id/moshi_bg"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_button_bg_100dp"/>
+        <TextView
+            android:id="@+id/moshi"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:gravity="center"
+            android:text="模式"
+            android:textColor="@color/colorGreen"
+            android:textSize="54px"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="160px"
+        android:layout_height="280px"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/kaiguan_bg"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_button_bg_100dp"/>
+        <com.uxdpen.library.iconfont.IconTextView
+            android:id="@+id/kaiguan"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:gravity="center"
+            android:text="@string/air_kaiguan"
+            android:textColor="@color/colorGreen"
+            android:textSize="90px" />
+
+        <TextView
+            android:id="@+id/kaiguan_text"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_below="@+id/kaiguan"
+            android:gravity="center"
+            android:text="开关"
+            android:textColor="@color/colorWhite"
+            android:textSize="50px" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="160px"
+        android:layout_height="280px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70px"
+        android:layout_marginBottom="150px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/fengsu_bg"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_button_bg_100dp"/>
+        <com.uxdpen.library.iconfont.IconTextView
+            android:id="@+id/fengsu"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:gravity="center"
+            android:text="@string/air_fengsu9"
+            android:textColor="@color/colorBlueLight"
+            android:textSize="90px" />
+
+        <TextView
+            android:id="@+id/fengsu_text"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_below="@+id/fengsu"
+            android:gravity="center"
+            android:text="风速"
+            android:textColor="@color/colorWhite"
+            android:textSize="50px" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160px"
+        android:layout_height="280px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="70px"
+        android:layout_marginBottom="150px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dingshi_bg"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_button_bg_100dp"/>
+        <com.uxdpen.library.iconfont.IconTextView
+            android:id="@+id/dingshi"
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:gravity="center"
+            android:text="@string/air_dingshi"
+            android:textColor="@color/colorYellow"
+            android:textSize="90px" />
+        <TextView
+            android:id="@+id/dingshi_text"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:layout_below="@+id/dingshi_bg"
+            android:gravity="center"
+            android:text="定时"
+            android:textColor="@color/colorWhite"
+            android:textSize="50px" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

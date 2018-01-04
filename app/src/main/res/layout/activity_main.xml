@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uxdpen.ui.android.activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/navigation_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/title_activity_navigation"/>
+        <Button
+            android:id="@+id/toolbar_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/navigation_btn"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="@string/title_toolbars"/>
+        <Button
+            android:id="@+id/kolin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar_btn"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="@string/title_activity_kolin"/>
+
+        <Button
+            android:id="@+id/fonticon_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kolin_btn"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="@string/title_activity_fonts"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kolin_btn"
+            android:layout_marginTop="10dp"
+            android:gravity="right"
+            android:text="Login"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uxdpen.ui.android">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="design_width"
+            android:value="1080" />
+        <meta-data
+            android:name="design_height"
+            android:value="1920" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.examples.NavigationActivity"
+            android:label="@string/title_activity_navigation" />
+        <activity
+            android:name=".activity.examples.TitlebarsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.examples.QuickPreviewActivity" />
+        <activity android:name=".activity.examples.TitlebarActivity" />
+        <activity
+            android:name=".activity.examples.KolinActivity"
+            android:label="@string/title_activity_kolin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.examples.FontsActivity"
+            android:label="@string/title_activity_fonts"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.carrier.LoginActivity"></activity>
+        <activity android:name=".activity.carrier.IduActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="air_kaiguan">&#xe607;</string>
+    <string name="air_zhileng">&#xe608;</string>
+    <string name="air_zhinuan">&#xe609;</string>
+    <string name="air_lianjie">&#xe60a;</string>
+    <string name="air_xianshi">&#xe60b;</string>
+    <string name="air_qiangjin">&#xe60c;</string>
+    <string name="air_songfeng">&#xe60d;</string>
+    <string name="air_wangguan">&#xe60e;</string>
+    <string name="air_zhinengdinuan">&#xe60f;</string>
+    <string name="air_baoxiu">&#xe610;</string>
+    <string name="air_chushi">&#xe611;</string>
+    <string name="air_banben">&#xe612;</string>
+    <string name="air_zidong">&#xe613;</string>
+    <string name="air_dinuan">&#xe614;</string>
+    <string name="air_fanhui">&#xe615;</string>
+    <string name="air_jingyin">&#xe616;</string>
+    <string name="air_fengsu1">&#xe61c;</string>
+    <string name="air_fengsu2">&#xe617;</string>
+    <string name="air_fengsu3">&#xe61a;</string>
+    <string name="air_fengsu4">&#xe61b;</string>
+    <string name="air_fengsu5">&#xe619;</string>
+    <string name="air_fengsu6">&#xe618;</string>
+    <string name="air_fengsu7">&#xe61e;</string>
+    <string name="air_fengsu8">&#xe61f;</string>
+    <string name="air_fengsu9">&#xe61d;</string>
+    <string name="air_user">&#xe628;</string>
+    <string name="air_update">&#xe627;</string>
+    <string name="air_password">&#xe626;</string>
+    <string name="air_xiangxiajiantou">&#xe636;</string>
+    <string name="air_xiangshangjiantou">&#xe635;</string>
+    <string name="air_shoujihaoma">&#xe634;</string>
+    <string name="air_jiahao">&#xe633;</string>
+    <string name="air_shezhi">&#xe632;</string>
+    <string name="air_gengduopifu">&#xe631;</string>
+    <string name="air_dengpao">&#xe630;</string>
+    <string name="air_gengduozongxiang">&#xe62f;</string>
+    <string name="air_bianjifangjian">&#xe62e;</string>
+    <string name="air_dingshi">&#xe62d;</string>
+    <string name="air_gengduohengxiang">&#xe62c;</string>
+    <string name="air_xiangyoujiantou">&#xe62b;</string>
+    <string name="air_songfengshixin">&#xe625;</string>
+    
+</resources>
